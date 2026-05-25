@@ -1,26 +1,19 @@
-# Aplikasi Presentasi Slide
+# Presentasi Arah Perkembangan Administrasi Publik
 
-Sebuah aplikasi presentasi sederhana yang dibuat dengan Flutter. Aplikasi ini memungkinkan Anda untuk menavigasi melalui slide-slide presentasi yang berisi judul, konten teks, dan ikon/gambar pendukung.
+Aplikasi ini adalah penampil presentasi slide interaktif (PPT) yang merangkum materi dari makalah "Arah Perkembangan Administrasi Publik" oleh Kelompok 5.
 
 ## Fitur Utama
-
-- **Navigasi Slide**: Tombol "Sebelumnya" dan "Selanjutnya" untuk berpindah antar slide.
-- **Indikator Progres**: Menampilkan slide keberapa yang sedang aktif dari total keseluruhan slide.
-- **Tampilan Slide Full Screen**: Menampilkan konten presentasi secara penuh dan responsif untuk berbagai ukuran layar.
-- **Tema Terang**: Menggunakan skema warna yang nyaman untuk presentasi.
+- **Navigasi Slide:** Tombol navigasi untuk berpindah ke slide sebelumnya dan selanjutnya.
+- **Tampilan Interaktif:** Menggunakan transisi halus antar slide dengan `PageView`.
+- **Indikator Progres:** Menampilkan slide yang sedang aktif dan total slide.
+- **Materi Terstruktur:** Merangkum poin-poin penting dari makalah, mulai dari latar belakang, rumusan masalah, perkembangan dari OPA, NPM, hingga NPS.
 
 ## Teknologi
+- Dibuat dengan **Flutter**.
+- Mendukung berbagai ukuran layar (responsif) untuk Android, iOS, Web, dan Desktop.
 
-- [Flutter](https://flutter.dev/)
-- Dart
-
-## Menjalankan Aplikasi
-
-1. Pastikan Anda telah menginstal Flutter di sistem Anda.
-2. Clone repository ini.
-3. Jalankan `flutter pub get` untuk mengunduh dependensi (jika ada).
-4. Jalankan `flutter run` untuk memulai aplikasi pada perangkat atau emulator yang terhubung.
+---
 
 ## Tentang CouldAI
 
-Aplikasi ini dibuat dengan [CouldAI](https://could.ai), pembuat aplikasi AI lintas platform yang mengubah prompt menjadi aplikasi asli iOS, Android, Web, dan Desktop dengan agen AI otonom yang merancang, membangun, menguji, menyebarkan, dan mengiterasi aplikasi yang siap diproduksi.
+Aplikasi ini dihasilkan dengan [CouldAI](https://could.ai), sebuah pembuat aplikasi AI lintas platform yang mengubah perintah menjadi aplikasi asli untuk iOS, Android, Web, dan Desktop menggunakan agen AI otonom yang merancang, membangun, menguji, mendeploy, dan menyempurnakan aplikasi siap pakai.
